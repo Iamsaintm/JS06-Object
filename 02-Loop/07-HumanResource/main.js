@@ -21,20 +21,6 @@ const employees = {
   },
 };
 // ```
-// let yName = prompt("Enter your name");
-// const zname = (yName) => {
-//   for (let key in employees) {
-//     if (key == yName) {
-//       console.log(`Name: ${key}`), console.log(`salary: ${employees[key]}`);
-
-//       // return all, all[key];
-//     } else {
-//       return "Not Found";
-//     }
-//   }
-// };
-
-// console.log(zname(yName));
 
 const searchEmployee = (name) => {
   const employee = employees[name];
